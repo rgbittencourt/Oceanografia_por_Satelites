@@ -68,7 +68,7 @@
             "type": "destaque",
             "props": {
               "title": "Objetivos de aprendizagem",
-              "body": "<ul><li>Explicar como o radar mede distância a partir do tempo de ida e volta de um pulso de micro-ondas e calcular a distância ao alvo com R = c·t/2 (Seções 1 e 5).</li><li>Relacionar frequência, comprimento de onda e bandas de radar (P, L, S, C, X, Ku, K, Ka) e situar as micro-ondas no espectro eletromagnético (Seção 3).</li><li>Justificar, distinguindo sensores ativos de passivos, por que o radar observa o mar de dia, de noite e sob nuvens, reconhecendo que chuva forte em bandas curtas pode atenuar o sinal (Seção 4).</li><li>Interpretar o desvio Doppler de um eco e calcular a velocidade radial de um alvo com Δf = 2·vr·f/c (Seção 6).</li><li>Interpretar cada termo da equação do radar (Pt, G², λ², σ⁰, A, R⁴), prever o efeito de dobrar a distância sobre a potência recebida e usar a escala em decibéis (Seção 7).</li><li>Avaliar a origem militar do radar e a transformação do *sea clutter* em sinal oceanográfico, apontando limites e pontos \"a conferir\" nas fontes citadas (Seções 2 e 5).</li></ul>",
+              "body": "<ul><li>Explicar como o radar mede distância a partir do tempo de ida e volta de um pulso de micro-ondas e calcular a distância ao alvo com <i><b>R = c·t/2</b></i> (Seções 1 e 5).</li><li>Relacionar frequência, comprimento de onda e bandas de radar (<i><b>P</b></i>, <b><i>L</i></b>, <b><i>S</i></b>, <b><i>C</i></b>, <b><i>X</i></b>, <b><i>Ku</i></b>, <b><i>K</i></b>, <b><i>Ka</i></b>) e situar as micro-ondas no espectro eletromagnético (Seção 3).</li><li>Justificar, distinguindo sensores ativos de passivos, por que o radar observa o mar de dia, de noite e sob nuvens, reconhecendo que chuva forte em bandas curtas pode atenuar o sinal (Seção 4).</li><li>Interpretar o desvio Doppler de um eco e calcular a velocidade radial de um alvo com <b><i>Δf = 2·vr·f/c</i></b> (Seção 6).</li><li>Interpretar cada termo da equação do radar (<b><i>Pt</i></b>, <b><i>G²</i></b>, <b><i>λ²</i></b>,<i><b> σ⁰</b></i>, <b><i>A</i></b>, <b><i>R⁴</i></b>), prever o efeito de dobrar a distância sobre a potência recebida e usar a escala em decibéis (Seção 7).</li><li>Avaliar a origem militar do radar e a transformação do <b>sea clutter</b>&nbsp;em sinal oceanográfico, apontando limites e pontos <i>\"a conferir\"</i> nas fontes citadas (Seções 2 e 5).</li></ul>",
               "tone": "sage",
               "icon": ""
             }
@@ -150,7 +150,7 @@
             "id": "c-prose-1-022",
             "type": "prose",
             "props": {
-              "body": "<p>O radar não nasceu em laboratório de oceanografia, e o oceanógrafo que o usa hoje herdou um instrumento pensado para outro fim. Entender essa origem não é curiosidade de historiador: ela explica por que o vocabulário do radar é tão cheio de termos militares e por que um dos maiores incômodos dos operadores navais virou, depois, um dos dados mais valiosos da área.</p><p>Começando pelo nome, o <strong>radar</strong> (<em>radio detection and ranging</em>) foi concebido para detectar objetos distantes e estimar a que distância estavam, usando ondas de rádio (Rafael S. Bittencourt. Radares, p. 3). Quem precisava disso, antes de qualquer pesquisa científica, eram forças armadas querendo localizar navios e aviões inimigos. Segundo Maul, durante a Segunda Guerra Mundial houve um esforço de pesquisa muito intenso em tecnologia de micro-ondas, concentrado no Radiation Laboratory do Instituto de Tecnologia de Massachusetts, o MIT. Desse esforço teriam saído 29 volumes sobre engenharia de radar, e o primeiro deles, editado por L. N. Ridenour com o título <em>Radar System Engineering</em>, resumiu o estado da arte em 1947 (G. A. Maul. Introduction to satellite oceanography, p. 413). Pela leitura do autor, boa parte da tecnologia que culminaria nos satélites oceanográficos já estava em desenvolvimento antes da metade do século. O número de volumes, o ano e a página são <strong>a conferir</strong> na obra original.</p><p>A virada científica tem uma história saborosa. Navios mercantes e de guerra tinham um problema crônico: o próprio mar devolvia ecos ao radar, e esses ecos podiam esconder um barco pequeno ou uma aeronave voando baixo. Esse ruído ganhou nome, <em><strong>sea clutter</strong></em>, algo como \"desordem do mar\". Os engenheiros desenvolveram circuitos especiais para suprimi-lo. Só que, observa Maul, o <em>sea clutter</em> se mostrou estatisticamente correlacionado com a velocidade e a direção do vento, e a partir daí teriam surgido transceptores projetados para otimizar justamente esse sinal retroespalhado (G. A. Maul. Introduction to satellite oceanography, p. 479). A referência de página para esse último ponto é <strong>a conferir</strong> na obra original.</p><p>O reconhecimento institucional veio mais tarde. Segundo Maul, a discussão séria sobre apontar esses instrumentos para o mar teria ganhado força depois da conferência de 1964 no Woods Hole Oceanographic Institution, presidida por Gifford Ewing, e a radio-oceanografia teria, na época do texto, apenas cerca de duas décadas como disciplina (G. A. Maul. Introduction to satellite oceanography, p. 413). A data, a atribuição e a duração da disciplina são <strong>a conferir</strong> com a obra antes da publicação; o desenho geral que o texto sustenta é: guerra, depois conferência, depois disciplina.</p><p>Resta saber onde, no espectro eletromagnético, essas ondas vivem e por que as bandas receberam letras que ninguém consegue adivinhar.</p>",
+              "body": "<p>O radar não nasceu em laboratório de oceanografia, e o oceanógrafo que o usa hoje herdou um instrumento pensado para outro fim. Entender essa origem não é curiosidade de historiador: ela explica por que o vocabulário do radar é tão cheio de termos militares e por que um dos maiores incômodos dos operadores navais virou, depois, um dos dados mais valiosos da área.</p><p>Começando pelo nome, o <strong>radar</strong> (<em>radio detection and ranging</em>) foi concebido para detectar objetos distantes e estimar a que distância estavam, usando ondas de rádio (Rafael S. Bittencourt. Radares, p. 3). Quem precisava disso, antes de qualquer pesquisa científica, eram forças armadas querendo localizar navios e aviões inimigos. Segundo Maul, durante a Segunda Guerra Mundial houve um esforço de pesquisa muito intenso em tecnologia de micro-ondas, concentrado no Radiation Laboratory do Instituto de Tecnologia de Massachusetts, o MIT. Desse esforço teriam saído 29 volumes sobre engenharia de radar, e o primeiro deles, editado por L. N. Ridenour com o título <em>Radar System Engineering</em>, resumiu o estado da arte em 1947 (G. A. Maul. Introduction to satellite oceanography, p. 413). Pela leitura do autor, boa parte da tecnologia que culminaria nos satélites oceanográficos já estava em desenvolvimento antes da metade do século.&nbsp;</p><p>A virada científica tem uma história saborosa. Navios mercantes e de guerra tinham um problema crônico: o próprio mar devolvia ecos ao radar, e esses ecos podiam esconder um barco pequeno ou uma aeronave voando baixo. Esse ruído ganhou nome, <em><strong>sea clutter</strong></em>, algo como \"desordem do mar\". Os engenheiros desenvolveram circuitos especiais para suprimi-lo. Só que, observa Maul, o <em>sea clutter</em> se mostrou estatisticamente correlacionado com a velocidade e a direção do vento, e a partir daí teriam surgido transceptores projetados para otimizar justamente esse sinal retroespalhado (G. A. Maul. Introduction to satellite oceanography, p. 479).&nbsp;</p><p>O reconhecimento institucional veio mais tarde. Segundo Maul, a discussão séria sobre apontar esses instrumentos para o mar teria ganhado força depois da conferência de 1964 no Woods Hole Oceanographic Institution, presidida por Gifford Ewing, e a radio-oceanografia teria, na época do texto, apenas cerca de duas décadas como disciplina (G. A. Maul. Introduction to satellite oceanography, p. 413). O&nbsp;desenho geral que o texto sustenta é: guerra, depois conferência, depois disciplina.</p><p>Resta saber onde, no espectro eletromagnético, essas ondas vivem e por que as bandas receberam letras que ninguém consegue adivinhar.</p>",
               "dropcap": false,
               "dropcapTone": "terracotta"
             }
@@ -214,7 +214,7 @@
               "number": "(1)",
               "showNumber": true,
               "ariaLabel": "",
-              "size": 100,
+              "size": 130,
               "autoFit": true,
               "framed": false
             }
@@ -223,7 +223,7 @@
             "id": "cwvi3htk",
             "type": "prose",
             "props": {
-              "body": "<p>Frequência alta significa comprimento de onda curto; frequência baixa, comprimento de onda longo.</p><p>O <strong>espectro eletromagnético</strong> é o conjunto de todas as frequências possíveis, da rádio-frequência, passando pelas micro-ondas, o infravermelho e o visível, até a radiação de maior energia. As <strong>micro-ondas</strong> ocupam, em geral, a faixa de comprimentos de onda de poucos centímetros a algumas dezenas de centímetros (as bandas de radar listadas adiante vão de cerca de 1 cm a cerca de 115 cm), e é nessa faixa que mora o radar. Maul lembra que a mente humana gosta de compartimentar o espectro conforme os limites dos nossos sentidos, mas o universo físico não reconhece essas fronteiras (G. A. Maul. Introduction to satellite oceanography, p. 15).</p><p>As letras das bandas, então, vêm de onde? Maul explica que, \"por razões históricas\", os comprimentos de onda de radar receberam abreviações alfabéticas (G. A. Maul. Introduction to satellite oceanography, p. 15). Segundo a Table 1.2 do livro, os valores centrais são aproximadamente: P, cerca de 115 cm; L, 20 cm; S, 10 cm; C, 5 cm; X, 3 cm; Ku, 2 cm; K, 1,35 cm; e Ka, 1 cm. A tabela chegou com ruído de digitalização, então <strong>todos os valores são a conferir</strong> na obra antes do uso em avaliação; o que o texto sustenta com segurança é a ordem de grandeza: das bandas longas (P e L, dezenas de centímetros) às curtas (Ku, K e Ka, de poucos centímetros).</p><p>O que a banda muda na prática, ao atravessar o ar e ao tocar o mar, é uma pergunta que fica pendente. Antes de respondê-la, falta entender por que um radar, e não uma câmera, é o instrumento certo quando as nuvens chegam.</p>",
+              "body": "<p>Frequência alta significa comprimento de onda curto; frequência baixa, comprimento de onda longo.</p><p>O <strong>espectro eletromagnético</strong> é o conjunto de todas as frequências possíveis, da rádio-frequência, passando pelas micro-ondas, o infravermelho e o visível, até a radiação de maior energia. As <strong>micro-ondas</strong> ocupam, em geral, a faixa de comprimentos de onda de poucos centímetros a algumas dezenas de centímetros (as bandas de radar listadas adiante vão de cerca de 1cm a cerca de 115cm), e é nessa faixa que mora o radar. Maul lembra que a mente humana gosta de compartimentar o espectro conforme os limites dos nossos sentidos, mas o universo físico não reconhece essas fronteiras (G. A. Maul. Introduction to satellite oceanography, p. 15).</p><p>As letras das bandas, então, vêm de onde? Maul explica que, \"por razões históricas\", os comprimentos de onda de radar receberam abreviações alfabéticas (G. A. Maul. Introduction to satellite oceanography, p. 15). Segundo a Table 1.2 do livro, os valores centrais são aproximadamente: <b><i>P</i></b>, cerca de <i><b>115cm</b></i>; <i><b>L</b></i>, <i><b>20cm</b></i>; <i><b>S</b></i>, <b><i>10cm</i></b>; <i><b>C</b></i>, <i><b>5cm</b></i>; <b><i>X</i></b>, <i><b>3cm</b></i>; <b><i>Ku</i></b>, <b><i>2cm</i></b>; <b><i>K</i></b>, <b><i>1,35cm</i></b>; e <b><i>Ka</i></b>, <i><b>1cm</b></i>. A tabela chegou com ruído de digitalização, então <strong>todos os valores são a conferir</strong> na obra antes do uso em avaliação; o que o texto sustenta com segurança é a ordem de grandeza: das bandas longas (<b><i>P </i></b>e <b><i>L</i></b>, dezenas de centímetros) às curtas (<i><b>Ku</b></i>, <i><b>K </b></i>e <i><b>Ka</b></i>, de poucos centímetros).</p><p>O que a banda muda na prática, ao atravessar o ar e ao tocar o mar, é uma pergunta que fica pendente. Antes de respondê-la, falta entender por que um radar, e não uma câmera, é o instrumento certo quando as nuvens chegam.</p>",
               "dropcap": false,
               "dropcapTone": "terracotta"
             }
@@ -372,7 +372,7 @@
             "id": "c-prose-1-025-p1",
             "type": "prose",
             "props": {
-              "body": "<p>O duplexador merece uma palavra a mais. Quando a mesma antena serve aos dois papéis, o pulso que sai é milhões de vezes mais forte que o eco que volta; sem uma chave que proteja o receptor durante a emissão, ele seria \"ensurdecido\" pelo próprio radar. Daí a lógica do pulso curto: o radar fala, silencia e escuta, e repete o ciclo. O número de pulsos emitidos por segundo é a <strong>PRF</strong> (<em>Pulse Repetition Frequency</em>, frequência de repetição de pulsos).</p><p>Agora a conta que dá sentido a tudo. O pulso viaja à velocidade da luz, c, que vale cerca de 3 × 10⁸ m/s, vai até o alvo e volta. Se o radar mede o tempo total t entre a saída e a chegada do eco, o caminho percorrido foi o dobro da distância ao alvo. Portanto:</p><p></p>",
+              "body": "<p>O duplexador merece uma palavra a mais. Quando a mesma antena serve aos dois papéis, o pulso que sai é milhões de vezes mais forte que o eco que volta; sem uma chave que proteja o receptor durante a emissão, ele seria \"ensurdecido\" pelo próprio radar. Daí a lógica do pulso curto: o radar fala, silencia e escuta, e repete o ciclo. O número de pulsos emitidos por segundo é a <strong>PRF</strong> (<em>Pulse Repetition Frequency</em>, frequência de repetição de pulsos).</p><p>Agora a conta que dá sentido a tudo. O pulso viaja à velocidade da luz, c, que vale cerca de <b><i>3 × 10⁸ m/s</i></b>, vai até o alvo e volta. Se o radar mede o tempo total t entre a saída e a chegada do eco, o caminho percorrido foi o dobro da distância ao alvo. Portanto:</p><p></p>",
               "dropcap": false,
               "dropcapTone": "terracotta"
             }
@@ -385,7 +385,7 @@
               "number": "(2)",
               "showNumber": true,
               "ariaLabel": "",
-              "size": 100,
+              "size": 130,
               "autoFit": true,
               "framed": false
             }
@@ -394,7 +394,29 @@
             "id": "cy5rwrco",
             "type": "prose",
             "props": {
-              "body": "<p><span style=\"text-wrap-mode: initial;\">Um exemplo numérico típico mostra a ordem de grandeza: um eco que retorna 5 milissegundos depois da emissão corresponde a R = (3 × 10⁸ × 5 × 10⁻³) / 2 = 7,5 × 10⁵ m, isto é, 750 km. Repare que 5 ms é um intervalo que nenhum ser humano percebe, e ainda assim ele separa o radar do alvo por uma distância equivalente à de Porto Alegre a Florianópolis em linha reta e um pouco mais. A precisão do relógio do radar, portanto, é tudo.</span></p><p>Há ainda um detalhe que costuma passar despercebido e que liga o ciclo à PRF. Maul descreve, para um pulso retangular refletido por um mar calmo, que o sinal de retorno forma uma rampa linear que sobe quando chega a borda dianteira do pulso e se estabiliza quando chega a traseira, e que a inclinação dessa rampa diminui conforme crescem as ondas da superfície (MAUL, p. 406). Essa descrição é <strong>a conferir</strong> na obra antes de ser usada em avaliação. Guardem a ideia: o formato do eco carrega informação sobre o mar, não apenas o instante em que ele chega.</p><p>Medir quanto tempo o eco demora é só metade da história. O eco não volta apenas atrasado: ele pode voltar com a frequência alterada, e é aí que o radar passa a contar também se o alvo está parado ou em movimento.</p>",
+              "body": "<p><span style=\"text-wrap-mode: initial;\">Um exemplo numérico típico mostra a ordem de grandeza: um eco que retorna 5 milissegundos depois da emissão corresponde a </span></p>",
+              "dropcap": false,
+              "dropcapTone": "terracotta"
+            }
+          },
+          {
+            "id": "cixf5kpo",
+            "type": "equacao",
+            "props": {
+              "latex": "R = \\frac{(3 × 10⁸ × 5 × 10⁻³)}{2} = 7,5 × 10⁵ m",
+              "number": "(3)",
+              "showNumber": true,
+              "ariaLabel": "",
+              "size": 100,
+              "autoFit": true,
+              "framed": false
+            }
+          },
+          {
+            "id": "c6t0rzo1",
+            "type": "prose",
+            "props": {
+              "body": "<p><span style=\"text-wrap-mode: initial;\">Isto é, 750 km. Repare que <i><b>5ms</b></i> é um intervalo que nenhum ser humano percebe, e ainda assim ele separa o radar do alvo por uma distância equivalente à de Porto Alegre a Florianópolis em linha reta e um pouco mais. A precisão do relógio do radar, portanto, é tudo.</span></p><p>Há ainda um detalhe que costuma passar despercebido e que liga o ciclo à PRF. Maul descreve, para um pulso retangular refletido por um mar calmo, que o sinal de retorno forma uma rampa linear que sobe quando chega a borda dianteira do pulso e se estabiliza quando chega a traseira, e que a inclinação dessa rampa diminui conforme crescem as ondas da superfície (MAUL, p. 406). Essa descrição é <strong>a conferir</strong> na obra antes de ser usada em avaliação. Guardem a ideia: o formato do eco carrega informação sobre o mar, não apenas o instante em que ele chega.</p><p>Medir quanto tempo o eco demora é só metade da história. O eco não volta apenas atrasado: ele pode voltar com a frequência alterada, e é aí que o radar passa a contar também se o alvo está parado ou em movimento.</p>",
               "dropcap": false,
               "dropcapTone": "terracotta"
             }
@@ -467,10 +489,10 @@
             "type": "equacao",
             "props": {
               "latex": "Δf = 2·vr·f / c",
-              "number": "(3)",
+              "number": "(4)",
               "showNumber": true,
               "ariaLabel": "",
-              "size": 100,
+              "size": 130,
               "autoFit": true,
               "framed": false
             }
@@ -489,10 +511,10 @@
             "type": "equacao",
             "props": {
               "latex": "vr = Δf·c / (2·f)",
-              "number": "(4)",
+              "number": "(5)",
               "showNumber": true,
               "ariaLabel": "",
-              "size": 100,
+              "size": 130,
               "autoFit": true,
               "framed": false
             }
@@ -501,7 +523,29 @@
             "id": "cik6g43q",
             "type": "prose",
             "props": {
-              "body": "<p><span style=\"text-wrap-mode: initial;\">(Rafael S. Bittencourt. Radares, p. 7). Repare no fator 2. Ele aparece pelo mesmo motivo que apareceu na medida de distância: o sinal faz o caminho de ida e volta, então o alvo \"sente\" o deslocamento uma vez ao receber a onda e o radar \"sente\" de novo ao receber o eco. Na sirene não há esse fator, porque o som vai só da fonte ao ouvido.</span></p><p>Vamos a um número para fixar a ordem de grandeza. Um alvo se aproximando a 10 m/s, observado por um radar em banda X, com f = 10 GHz (λ ≈ 3 cm): Δf = 2 · 10 · 10×10⁹ / 3×10⁸ ≈ 667 Hz. Dá para perceber que o desvio é minúsculo perto da frequência emitida (667 Hz contra 10 bilhões de Hz), e mesmo assim é perfeitamente mensurável. Medir uma diferença tão pequena sobre uma portadora tão alta é um dos truques que a eletrônica de radar domina bem.</p><p>E como isso se manifesta na superfície do mar? O mar também se move, e o eco carrega essa informação. Segundo Maul, ainda nos anos 1950 o pesquisador D. D. Crombie teria observado, com um radar instalado em terra, que o eco vindo do mar aparecia deslocado em frequência em relação ao sinal transmitido. Em 1972, D. E. Barrick teria confirmado teoricamente que esse deslocamento era um efeito Doppler causado pela velocidade de fase das ondas da superfície (G.A. MAUL. Introduction to satellite oceanography, p. 494). Os nomes, as datas e a página são <strong>a conferir</strong> na obra original. A superfície do oceano não é um alvo parado: ela é um conjunto de ondas que avançam e recuam, e o eco \"ouve\" esse movimento. Guarde a ideia e deixe a aplicação para quando você tiver o vocabulário completo, porque aqui nos interessa o princípio: frequência do eco diferente da emitida significa movimento relativo.</p>",
+              "body": "<p><span style=\"text-wrap-mode: initial;\">(Rafael S. Bittencourt. Radares, p. 7). Repare no fator<i><b> 2</b></i>. Ele aparece pelo mesmo motivo que apareceu na medida de distância: o sinal faz o caminho de ida e volta, então o alvo \"sente\" o deslocamento uma vez ao receber a onda e o radar \"sente\" de novo ao receber o eco. Na sirene não há esse fator, porque o som vai só da fonte ao ouvido.</span></p><p>Vamos a um número para fixar a ordem de grandeza. Um alvo se aproximando a 10 m/s, observado por um radar em banda X, com<i><b> f = 10 GHz (λ ≈ 3 cm)</b></i>: </p>",
+              "dropcap": false,
+              "dropcapTone": "terracotta"
+            }
+          },
+          {
+            "id": "cs0aa3gv",
+            "type": "equacao",
+            "props": {
+              "latex": "Δf = \\frac{2 · 10 · 10×10⁹}{3×10⁸} ≈ 667 Hz",
+              "number": "(6)",
+              "showNumber": true,
+              "ariaLabel": "",
+              "size": 100,
+              "autoFit": true,
+              "framed": false
+            }
+          },
+          {
+            "id": "ciuxres0",
+            "type": "prose",
+            "props": {
+              "body": "<p>Dá para perceber que o desvio é minúsculo perto da frequência emitida (667 Hz contra 10 bilhões de Hz), e mesmo assim é perfeitamente mensurável. Medir uma diferença tão pequena sobre uma portadora tão alta é um dos truques que a eletrônica de radar domina bem.</p><p>E como isso se manifesta na superfície do mar? O mar também se move, e o eco carrega essa informação. Segundo Maul, ainda nos anos 1950 o pesquisador D. D. Crombie teria observado, com um radar instalado em terra, que o eco vindo do mar aparecia deslocado em frequência em relação ao sinal transmitido. Em 1972, D. E. Barrick teria confirmado teoricamente que esse deslocamento era um efeito Doppler causado pela velocidade de fase das ondas da superfície (G.A. MAUL. Introduction to satellite oceanography, p. 494). Os nomes, as datas e a página são <strong>a conferir</strong> na obra original. A superfície do oceano não é um alvo parado: ela é um conjunto de ondas que avançam e recuam, e o eco \"ouve\" esse movimento. Guarde a ideia e deixe a aplicação para quando você tiver o vocabulário completo, porque aqui nos interessa o princípio: frequência do eco diferente da emitida significa movimento relativo.</p>",
               "dropcap": false,
               "dropcapTone": "terracotta"
             }
@@ -539,7 +583,7 @@
             "type": "atencao",
             "props": {
               "title": "Atenção",
-              "body": "<p><i>O Doppler mede apenas a componente radial da velocidade, a que está na direção da linha que liga o radar ao alvo. Um alvo que passa exatamente perpendicular ao feixe, mesmo em alta velocidade, produz desvio nulo. O erro de quem está começando é ler Δf como \"a velocidade do alvo\", quando ele é só a projeção dessa velocidade na linha de visada.</i></p>",
+              "body": "<p><i>O Doppler mede apenas a componente radial da velocidade, a que está na direção da linha que liga o radar ao alvo. Um alvo que passa exatamente perpendicular ao feixe, mesmo em alta velocidade, produz desvio nulo. O erro de quem está começando é ler <b>Δf </b>como \"a velocidade do alvo\", quando ele é só a projeção dessa velocidade na linha de visada.</i></p>",
               "tone": "terracotta",
               "icon": ""
             }
@@ -596,7 +640,7 @@
             "id": "c-subprose-1-064",
             "type": "prose",
             "props": {
-              "body": "<p>Uma antena não irradia igualmente para todos os lados. Ela concentra a energia em certas direções, e essa capacidade tem nome: <strong>ganho</strong> (G). Quanto maior o ganho, mais estreito tende a ser o feixe e maior a potência recebida de alvos nessa direção (Rafael S. Bittencourt. Radares, p. 16). Pense na diferença entre uma lâmpada pendurada no teto e uma lanterna de foco fechado: a mesma energia, aplicada de modo diferente, ilumina um ponto distante com intensidades muito distintas. A região de máxima concentração é o <strong>lóbulo principal</strong>; a energia que \"vaza\" para outras direções forma os <strong>lóbulos laterais</strong>, e a abertura do lóbulo principal define a <strong>largura do feixe</strong>. Maul mostra, como exemplo de feixe muito estreito, o diagrama da antena do radar AN/FPQ-6, usado pelo U.S. Naval Research Laboratory, redesenhado a partir de Skolnik (1970) (G.A. MAUL. Introduction to satellite oceanography, p. 418); a identificação do radar, do usuário e da fonte original é <strong>a conferir</strong> na obra. Ele também lembra que o diagrama da antena ao transmitir é idêntico ao dela ao receber, e é essa simetria que permite usar a mesma antena nas duas tarefas.</p>",
+              "body": "<p>Uma antena não irradia igualmente para todos os lados. Ela concentra a energia em certas direções, e essa capacidade tem nome: <strong>ganho</strong> (<i><b>G</b></i>). Quanto maior o ganho, mais estreito tende a ser o feixe e maior a potência recebida de alvos nessa direção (Rafael S. Bittencourt. Radares, p. 16). Pense na diferença entre uma lâmpada pendurada no teto e uma lanterna de foco fechado: a mesma energia, aplicada de modo diferente, ilumina um ponto distante com intensidades muito distintas. A região de máxima concentração é o <strong>lóbulo principal</strong>; a energia que \"vaza\" para outras direções forma os <strong>lóbulos laterais</strong>, e a abertura do lóbulo principal define a <strong>largura do feixe</strong>. Maul mostra, como exemplo de feixe muito estreito, o diagrama da antena do radar AN/FPQ-6, usado pelo U.S. Naval Research Laboratory, redesenhado a partir de Skolnik (1970) (G.A. MAUL. Introduction to satellite oceanography, p. 418); a identificação do radar, do usuário e da fonte original é <strong>a conferir</strong> na obra. Ele também lembra que o diagrama da antena ao transmitir é idêntico ao dela ao receber, e é essa simetria que permite usar a mesma antena nas duas tarefas.</p>",
               "dropcap": false,
               "dropcapTone": "terracotta"
             }
@@ -613,9 +657,22 @@
             "id": "c-subprose-1-065-p0",
             "type": "prose",
             "props": {
-              "body": "<p>A <strong>equação do radar</strong> relaciona a potência que volta à antena (Pr) com a potência transmitida (Pt) e com os fatores que atuam no caminho. Na forma apresentada por Bittencourt, ela envolve o comprimento de onda λ, o ganho G, o coeficiente de retroespalhamento σ⁰, a área iluminada A, a eficiência do sistema η e a distância R (Rafael S. Bittencourt. Radares, p. 15). Sem escrever a fórmula inteira, vale ler o que cada termo diz:</p>",
+              "body": "<p>A <strong>equação do radar</strong> relaciona a potência que volta à antena (<b><i>Pr</i></b>) com a potência transmitida (<b><i>Pt)</i></b> e com os fatores que atuam no caminho. Na forma apresentada por Bittencourt, ela envolve o comprimento de onda<b style=\"\"> <i>λ</i></b>, o ganho <i><b>G</b></i>, o coeficiente de retroespalhamento <b><i>σ⁰</i></b>, a área iluminada <b><i>A</i></b>, a eficiência do sistema <i><b>η</b></i> e a distância <i><b>R</b></i> (Rafael S. Bittencourt. Radares, p. 15). Sem escrever a fórmula inteira, vale ler o que cada termo diz:</p>",
               "dropcap": false,
               "dropcapTone": "terracotta"
+            }
+          },
+          {
+            "id": "cov51mnl",
+            "type": "equacao",
+            "props": {
+              "latex": "P_{r} = \\frac{\\lambda ^{2}G^{2}P_{t}\\sigma ^{0}A} {\\left( 4\\pi  \\right)^{3} \\eta R^{4}}",
+              "number": "(7)",
+              "showNumber": true,
+              "ariaLabel": "",
+              "size": 130,
+              "autoFit": true,
+              "framed": false
             }
           },
           {
@@ -633,23 +690,23 @@
               ],
               "rows": [
                 [
-                  "Pt (potência transmitida)",
+                  "<i>Pt </i>(potência transmitida)",
                   "Mais potência emitida, mais eco"
                 ],
                 [
-                  "G² (ganho ao quadrado)",
+                  "<i>G² </i>(ganho ao quadrado)",
                   "Aparece duas vezes porque a mesma antena transmite e recebe (Bittencourt, p. 16)"
                 ],
                 [
-                  "λ² (comprimento de onda)",
+                  "<i>λ²</i> (comprimento de onda)",
                   "A banda escolhida altera a potência recebida"
                 ],
                 [
-                  "σ⁰ e A",
-                  "Quanto da energia o alvo devolve (σ⁰) e qual área foi iluminada (A)"
+                  "<i>σ⁰</i> e <i>A</i>",
+                  "Quanto da energia o alvo devolve (<b><i>σ⁰</i></b>) e qual área foi iluminada (<b><i>A</i></b>)"
                 ],
                 [
-                  "R⁴ (distância à quarta)",
+                  "<i>R⁴</i> (distância à quarta)",
                   "Pequena variação na distância muda muito a potência (Bittencourt, p. 16)"
                 ]
               ]
@@ -659,7 +716,7 @@
             "id": "c-subprose-1-065-p1",
             "type": "prose",
             "props": {
-              "body": "<p>O termo que mais pega de surpresa é o R⁴: a potência cai com a distância elevada à quarta potência, não ao quadrado. A energia se espalha na ida e se espalha de novo na volta, e esses dois enfraquecimentos se multiplicam. Dobrar a distância reduz a potência recebida a 1/16. Por isso Maul destaca que, uma vez projetado o sistema, só o σ (seção reta efetiva do alvo) e o R⁴ são variáveis geofísicas capazes de alterar a relação sinal-ruído (G.A. MAUL. Introduction to satellite oceanography, p. 406); a formulação exata dessa passagem é <strong>a conferir</strong> na obra.</p>",
+              "body": "<p>O termo que mais pega de surpresa é o <b><i>R⁴</i></b>: a potência cai com a distância elevada à quarta potência, não ao quadrado. A energia se espalha na ida e se espalha de novo na volta, e esses dois enfraquecimentos se multiplicam. Dobrar a distância reduz a potência recebida a 1/16. Por isso Maul destaca que, uma vez projetado o sistema, só o σ (seção reta efetiva do alvo) e o <b><i>R⁴</i></b> são variáveis geofísicas capazes de alterar a relação sinal-ruído (G.A. MAUL. Introduction to satellite oceanography, p. 406); a formulação exata dessa passagem é <strong>a conferir</strong> na obra.</p>",
               "dropcap": false,
               "dropcapTone": "terracotta"
             }
@@ -668,7 +725,7 @@
             "id": "c-subtitle-1-064",
             "type": "titulo",
             "props": {
-              "text": "7.3 σ⁰ e a escala em decibéis",
+              "text": "7.3 <i>σ⁰</i> e a escala em decibéis",
               "level": "h3"
             }
           },
@@ -676,7 +733,7 @@
             "id": "c-subprose-1-066",
             "type": "prose",
             "props": {
-              "body": "<p>O <strong>coeficiente de retroespalhamento</strong> (σ⁰) mede a fração da energia incidente que a superfície devolve na direção do radar. A parte do sinal que volta recebe o nome de retroespalhamento (Rafael S. Bittencourt. Radares, p. 19) e depende de rugosidade, ângulo de incidência, propriedades dielétricas e comprimento de onda (p. 20), assunto da Aula 2. Como os valores de potência cobrem muitas ordens de grandeza, trabalha-se com o <strong>decibel</strong> (dB), uma escala logarítmica: dB = 10·log₁₀(Pmedida/Pteórica) (G.A. MAUL. Introduction to satellite oceanography, p. 406). Alguns pontos de referência: 0 dB é razão 1; +10 dB é fator 10; +3 dB é cerca do dobro; −10 dB é um décimo.</p>",
+              "body": "<p>O <strong>coeficiente de retroespalhamento</strong> (<i><b>σ⁰</b></i>) mede a fração da energia incidente que a superfície devolve na direção do radar. A parte do sinal que volta recebe o nome de retroespalhamento (Rafael S. Bittencourt. Radares, p. 19) e depende de rugosidade, ângulo de incidência, propriedades dielétricas e comprimento de onda (p. 20), assunto da Aula 2. Como os valores de potência cobrem muitas ordens de grandeza, trabalha-se com o <strong>decibel</strong> (dB), uma escala logarítmica: dB = 10·log₁₀(Pmedida/Pteórica) (G.A. MAUL. Introduction to satellite oceanography, p. 406). Alguns pontos de referência: 0 dB é razão 1; +10 dB é fator 10; +3 dB é cerca do dobro; −10 dB é um décimo.</p>",
               "dropcap": false,
               "dropcapTone": "terracotta"
             }
@@ -686,7 +743,7 @@
             "type": "destaque",
             "props": {
               "title": "Em uma frase",
-              "body": "<p>A potência do eco depende de quanto a antena concentra o feixe, de quão distante está o alvo (com peso R⁴) e de quanto a superfície devolve (σ⁰), e tudo isso se lê em decibéis.</p>",
+              "body": "<p>A potência do eco depende de quanto a antena concentra o feixe, de quão distante está o alvo (com peso <i><b>R⁴</b></i>) e de quanto a superfície devolve (<b><i>σ⁰</i></b>), e tudo isso se lê em decibéis.</p>",
               "tone": "sage",
               "icon": ""
             }
