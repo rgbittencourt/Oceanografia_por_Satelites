@@ -1,9 +1,9 @@
-# Oceanografia por Satélites
+# Do eco ao mar: fundamentos de radar, retroespalhamento, Bragg e vento
 
 Site do curso, pronto para publicar no GitHub Pages.
 
 ## Publicar
-1. Crie um repositório no GitHub (por exemplo `curso-oceanografia-por-satelites`) e envie **todos** os arquivos desta pasta para a raiz dele.
+1. Crie um repositório no GitHub (por exemplo `curso-do-eco-ao-mar-fundamentos-de-radar-retroespalhamento-bragg-e-vento`) e envie **todos** os arquivos desta pasta para a raiz dele.
 2. Em **Settings → Pages**, escolha **Deploy from a branch**, branch `main` e pasta `/ (root)`.
 3. Em alguns minutos o site fica em `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/`.
 
