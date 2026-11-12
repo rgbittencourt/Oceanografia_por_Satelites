@@ -1,51 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Diagrama de radiação de uma antena em coordenadas polares, com lóbulo principal estreito apontando para cima, lóbulos laterais menores, eixo do feixe e largura do feixe entre os pontos de meia potência (-3 dB)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Efeito Doppler: fonte em movimento para a direita emite frentes de onda mais juntas à frente (observador A, frequência maior) e mais espaçadas atrás (observador B, frequência menor). A velocidade da fonte v se decompõe em componente radial vr, na direção do observador, e componente tangencial vt.">
 <defs>
-<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2a44"/></marker>
-<marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c8553d"/></marker>
+<marker id="aN" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2a44"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c8553d"/></marker>
+<marker id="aL" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7fb0"/></marker>
 </defs>
 <rect width="960" height="540" fill="#fbf9f4"/>
-<g fill="none" stroke="#e8e4da" stroke-width="2">
-<circle cx="360" cy="320" r="100"/>
-<circle cx="360" cy="320" r="200"/>
+<text x="480" y="44" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#1f2a44" text-anchor="middle">Efeito Doppler: frentes de onda de uma fonte em movimento</text>
+<g fill="none" stroke="#5b8a72" stroke-width="3">
+<circle cx="480" cy="270" r="40"/>
+<circle cx="440" cy="270" r="95"/>
+<circle cx="400" cy="270" r="150"/>
+<circle cx="360" cy="270" r="205"/>
 </g>
-<line x1="360" y1="520" x2="360" y2="115" stroke="#e8e4da" stroke-width="2"/>
-<line x1="150" y1="320" x2="570" y2="320" stroke="#e8e4da" stroke-width="2"/>
-<g fill="#8a7fb0" fill-opacity="0.55" stroke="#1f2a44" stroke-width="2.5" stroke-linejoin="round">
-<ellipse cx="360" cy="320" rx="13" ry="42" transform="rotate(26 360 320) translate(0 -42)"/>
-<ellipse cx="360" cy="320" rx="13" ry="42" transform="rotate(-26 360 320) translate(0 -42)"/>
-<ellipse cx="360" cy="320" rx="14" ry="48" transform="rotate(70 360 320) translate(0 -48)"/>
-<ellipse cx="360" cy="320" rx="14" ry="48" transform="rotate(-70 360 320) translate(0 -48)"/>
-<ellipse cx="360" cy="320" rx="14" ry="44" transform="rotate(115 360 320) translate(0 -44)"/>
-<ellipse cx="360" cy="320" rx="14" ry="44" transform="rotate(-115 360 320) translate(0 -44)"/>
-<ellipse cx="360" cy="320" rx="16" ry="52" transform="rotate(160 360 320) translate(0 -52)"/>
-<ellipse cx="360" cy="320" rx="16" ry="52" transform="rotate(-160 360 320) translate(0 -52)"/>
-</g>
-<ellipse cx="360" cy="320" rx="38" ry="130" transform="translate(0 -130)" fill="#c8553d" fill-opacity="0.45" stroke="#1f2a44" stroke-width="3"/>
-<line x1="360" y1="320" x2="360" y2="150" stroke="#1f2a44" stroke-width="3" stroke-dasharray="10 6" marker-end="url(#ar)"/>
-<line x1="360" y1="320" x2="326" y2="203" stroke="#c8553d" stroke-width="2.5"/>
-<line x1="360" y1="320" x2="394" y2="203" stroke="#c8553d" stroke-width="2.5"/>
-<path d="M 345 255 A 68 68 0 0 1 375 255" fill="none" stroke="#c8553d" stroke-width="3"/>
-<circle cx="360" cy="320" r="6" fill="#1f2a44"/>
-<circle cx="338" cy="203" r="6" fill="#c8553d"/>
-<circle cx="382" cy="203" r="6" fill="#c8553d"/>
-<g font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">
-<text x="372" y="140">0° (eixo do feixe)</text>
-<text x="372" y="345" font-size="20" fill="#1f2a44">Antena</text>
-<text x="108" y="104" font-weight="bold">Diagrama de radiação (polar)</text>
-<text x="108" y="130" font-size="20">escala radial = potência relativa</text>
-</g>
-<g font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">
-<text x="640" y="170" font-weight="bold" fill="#c8553d">Lóbulo principal</text>
-<text x="640" y="196">direção de máxima</text>
-<text x="640" y="220">radiação, estreito</text>
-<line x1="634" y1="180" x2="410" y2="230" stroke="#c8553d" stroke-width="2" marker-end="url(#at)"/>
-<text x="640" y="300" font-weight="bold" fill="#8a7fb0">Lóbulos laterais</text>
-<text x="640" y="326">menores; nos lados e</text>
-<text x="640" y="350">na parte de trás</text>
-<line x1="634" y1="316" x2="470" y2="372" stroke="#8a7fb0" stroke-width="2" marker-end="url(#ar)"/>
-<text x="640" y="430" font-weight="bold" fill="#c8553d">Largura do feixe (θ)</text>
-<text x="640" y="456">ângulo entre os pontos</text>
-<text x="640" y="480">de meia potência (−3 dB)</text>
-<line x1="634" y1="440" x2="408" y2="258" stroke="#c8553d" stroke-width="2" marker-end="url(#at)"/>
-</g>
+<circle cx="480" cy="270" r="12" fill="#c8553d"/>
+<text x="480" y="305" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#c8553d" text-anchor="middle">Fonte</text>
+<line x1="498" y1="270" x2="580" y2="270" stroke="#1f2a44" stroke-width="4" marker-end="url(#aN)"/>
+<text x="540" y="256" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#1f2a44" text-anchor="middle">v</text>
+<line x1="498" y1="270" x2="580" y2="270" stroke="#c8553d" stroke-width="4" marker-end="url(#aT)" display="none"/>
+<text x="480" y="455" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">Frentes mais juntas à frente, mais espaçadas atrás</text>
+<circle cx="790" cy="270" r="14" fill="#1f2a44"/>
+<text x="790" y="312" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1f2a44" text-anchor="middle">Observador A</text>
+<text x="790" y="338" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">frequência maior</text>
+<circle cx="130" cy="270" r="14" fill="#1f2a44"/>
+<text x="130" y="312" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1f2a44" text-anchor="middle">Observador B</text>
+<text x="130" y="338" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">frequência menor</text>
+<line x1="610" y1="160" x2="610" y2="470" stroke="#e8e4da" stroke-width="2" display="none"/>
+<rect x="640" y="78" width="290" height="140" rx="10" fill="#e8e4da"/>
+<text x="655" y="108" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1f2a44">Decomposição de v</text>
+<line x1="670" y1="190" x2="770" y2="190" stroke="#c8553d" stroke-width="5" marker-end="url(#aT)"/>
+<text x="785" y="197" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#c8553d">v<tspan font-size="16" dy="5">r</tspan></text>
+<text x="655" y="150" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">radial: aponta ao observador</text>
+<line x1="840" y1="190" x2="840" y2="130" stroke="#8a7fb0" stroke-width="4" display="none"/>
+<text x="480" y="500" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">Só a componente radial vr desloca a frequência</text>
 </svg>
