@@ -1,39 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Espalhamento de Bragg: feixe de radar incidente com ângulo θ sobre uma onda curta de comprimento λ_Bragg igual a λ_radar dividido por 2 sen θ, com retorno coerente ao radar; onda longa de fundo não ressoa">
-<defs>
-<marker id="aB" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#1f2a44"/></marker>
-<marker id="aT" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#c8553d"/></marker>
-</defs>
-<rect width="960" height="540" fill="#fbf9f4"/>
-<!-- radar -->
-<rect x="355" y="30" width="100" height="40" rx="6" fill="#e8e4da" stroke="#1f2a44" stroke-width="2"/>
-<text x="405" y="58" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44" text-anchor="middle">Radar</text>
-<!-- vertical (normal) -->
-<line x1="560" y1="100" x2="560" y2="330" stroke="#1f2a44" stroke-width="2" stroke-dasharray="8 6"/>
-<!-- feixe incidente -->
-<line x1="405" y1="75" x2="545" y2="268" stroke="#1f2a44" stroke-width="4" marker-end="url(#aB)"/>
-<!-- retorno coerente -->
-<line x1="580" y1="268" x2="440" y2="75" stroke="#c8553d" stroke-width="4" marker-end="url(#aT)"/>
-<!-- arco do ângulo -->
-<path d="M 560 170 A 70 70 0 0 0 527 188" fill="none" stroke="#1f2a44" stroke-width="2.5"/>
-<text x="496" y="162" font-family="Arial, Helvetica, sans-serif" font-size="26" font-style="italic" fill="#1f2a44">θ</text>
-<!-- onda longa de fundo -->
-<path d="M 60 340 C 190 262, 330 262, 460 340 S 730 418, 900 340" fill="none" stroke="#8a7fb0" stroke-width="5"/>
-<path d="M 60 340 C 190 262, 330 262, 460 340 S 730 418, 900 340 L 900 500 L 60 500 Z" fill="#8a7fb0" fill-opacity="0.12"/>
-<!-- onda curta em corte -->
-<path d="M 420 276 q 17.5 -18 35 0 t 35 0 t 35 0 t 35 0 t 35 0 t 35 0 t 35 0" fill="none" stroke="#5b8a72" stroke-width="4"/>
-<!-- cota λ_Bragg -->
-<line x1="490" y1="302" x2="560" y2="302" stroke="#1f2a44" stroke-width="2.5" marker-end="url(#aB)"/>
-<line x1="560" y1="302" x2="490" y2="302" stroke="#1f2a44" stroke-width="2.5" marker-end="url(#aB)"/>
-<text x="525" y="330" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#5b8a72" font-weight="bold" text-anchor="middle">λ_Bragg</text>
-<!-- rótulos à direita -->
-<text x="640" y="95" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44">λ_radar: comprimento de onda</text>
-<text x="640" y="125" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44">do radar</text>
-<text x="640" y="182" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#c8553d">retorno coerente</text>
-<!-- fórmula -->
-<rect x="610" y="215" width="320" height="50" rx="8" fill="#e8e4da" stroke="#c8553d" stroke-width="2"/>
-<text x="770" y="249" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#1f2a44" text-anchor="middle">λ_Bragg = λ_radar / (2 sen θ)</text>
-<!-- rótulos das ondas -->
-<text x="360" y="232" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#5b8a72" text-anchor="end">onda curta (ressoa)</text>
-<text x="480" y="470" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#8a7fb0" font-weight="bold" text-anchor="middle">onda longa (não ressoa)</text>
-<text x="480" y="500" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44" text-anchor="middle">apenas inclina a superfície das curtas</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Vista de cima de um radar de visada lateral: o satélite voa na direção de azimute, o feixe sai para o lado e se abre com a distância no alcance; dois alvos na mesma distância ficam dentro da largura do feixe e se misturam num único eco.">
+  <defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f2a44"/>
+    </marker>
+    <marker id="setaT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c8553d"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="960" height="540" fill="#fbf9f4"/>
+
+  <!-- faixa imageada (swath) -->
+  <rect x="150" y="200" width="750" height="300" fill="#e8e4da" opacity="0.5"/>
+  <line x1="150" y1="200" x2="900" y2="200" stroke="#5b8a72" stroke-width="3" stroke-dasharray="10 6"/>
+  <line x1="150" y1="500" x2="900" y2="500" stroke="#5b8a72" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="900" y="528" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#5b8a72">faixa imageada (swath)</text>
+
+  <!-- feixe em leque -->
+  <polygon points="280,95 600,200 600,500" fill="#c8553d" opacity="0.18"/>
+  <line x1="280" y1="95" x2="600" y2="200" stroke="#c8553d" stroke-width="3"/>
+  <line x1="280" y1="95" x2="600" y2="500" stroke="#c8553d" stroke-width="3"/>
+
+  <!-- trajetória e direção de voo -->
+  <line x1="60" y1="95" x2="880" y2="95" stroke="#1f2a44" stroke-width="3" stroke-dasharray="4 8"/>
+  <line x1="480" y1="62" x2="800" y2="62" stroke="#1f2a44" stroke-width="3" marker-end="url(#seta)"/>
+  <text x="640" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1f2a44">direção de voo (azimute)</text>
+
+  <!-- satélite e antena de comprimento L -->
+  <rect x="250" y="80" width="60" height="30" fill="#8a7fb0" stroke="#1f2a44" stroke-width="2"/>
+  <line x1="250" y1="122" x2="310" y2="122" stroke="#1f2a44" stroke-width="2"/>
+  <line x1="250" y1="116" x2="250" y2="128" stroke="#1f2a44" stroke-width="2"/>
+  <line x1="310" y1="116" x2="310" y2="128" stroke="#1f2a44" stroke-width="2"/>
+  <text x="280" y="152" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">antena (L)</text>
+  <text x="130" y="86" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">satélite</text>
+  <line x1="170" y1="92" x2="246" y2="94" stroke="#1f2a44" stroke-width="2"/>
+
+  <!-- eixo de alcance (range) -->
+  <line x1="130" y1="180" x2="130" y2="480" stroke="#1f2a44" stroke-width="3" marker-end="url(#seta)"/>
+  <text x="122" y="232" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1f2a44">alcance</text>
+  <text x="122" y="258" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1f2a44">(range)</text>
+
+  <!-- largura do feixe no solo, na distância dos alvos (R1) -->
+  <line x1="560" y1="300" x2="560" y2="400" stroke="#1f2a44" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="450" y1="350" x2="560" y2="350" stroke="#1f2a44" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- alvos 1 e 2 na mesma distância -->
+  <circle cx="560" cy="325" r="10" fill="#1f2a44"/>
+  <circle cx="560" cy="375" r="10" fill="#1f2a44"/>
+  <text x="580" y="332" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">alvo 1</text>
+  <text x="580" y="382" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">alvo 2</text>
+  <text x="440" y="342" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">mesma distância</text>
+  <text x="440" y="366" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">→ mesmo tempo de eco</text>
+
+  <!-- chave: dois alvos viram um único eco -->
+  <path d="M 650 310 Q 668 350 650 390" fill="none" stroke="#c8553d" stroke-width="3"/>
+  <text x="688" y="340" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#c8553d">um único eco</text>
+  <text x="688" y="364" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#c8553d">(não separados)</text>
+
+  <!-- seta: largura do feixe cresce com a distância -->
+  <line x1="640" y1="470" x2="640" y2="228" stroke="#c8553d" stroke-width="3" marker-end="url(#setaT)"/>
+  <text x="652" y="208" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#c8553d">mais longe</text>
+  <text x="652" y="486" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#c8553d">mais perto</text>
+
+  <!-- fórmula -->
+  <rect x="700" y="130" width="230" height="56" rx="6" fill="#fbf9f4" stroke="#c8553d" stroke-width="2"/>
+  <text x="815" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">largura no solo ≈ R·λ/L</text>
+  <text x="815" y="178" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#c8553d">cresce com R</text>
 </svg>

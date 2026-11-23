@@ -1,47 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Compressão de pulso: um chirp longo, com frequência crescente, é transformado por filtro casado em um pico estreito cuja largura é aproximadamente c/(2B)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Efeito Doppler: fonte em movimento para a direita emite frentes de onda mais juntas à frente (observador A, frequência maior) e mais espaçadas atrás (observador B, frequência menor). A velocidade da fonte v se decompõe em componente radial vr, na direção do observador, e componente tangencial vt.">
 <defs>
-<marker id="seta" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
-<path d="M0,0 L12,6 L0,12 Z" fill="#c8553d"/>
-</marker>
-<marker id="setaAz" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
-<path d="M0,0 L12,6 L0,12 Z" fill="#1f2a44"/>
-</marker>
+<marker id="aN" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2a44"/></marker>
+<marker id="aT" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c8553d"/></marker>
+<marker id="aL" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7fb0"/></marker>
 </defs>
-<rect x="0" y="0" width="960" height="540" fill="#fbf9f4"/>
-
-<rect x="30" y="80" width="400" height="340" rx="12" fill="#e8e4da"/>
-<rect x="530" y="80" width="400" height="340" rx="12" fill="#e8e4da"/>
-
-<text x="230" y="55" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1f2a44" text-anchor="middle">Pulso transmitido (chirp)</text>
-<text x="730" y="55" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1f2a44" text-anchor="middle">Eco após compressão de pulso</text>
-
-<line x1="55" y1="250" x2="405" y2="250" stroke="#1f2a44" stroke-width="2" stroke-dasharray="6 6"/>
-<path d="M60,250 L73,185 L86,315 L99,185 L112,315 L124,185 L136,315 L147,185 L158,315 L168,185 L178,315 L187,185 L196,315 L204,185 L212,315 L219,185 L226,315 L232,185 L238,315 L244,185 L250,315 L256,185 L262,315 L267,185 L272,315 L277,185 L282,315 L287,185 L292,315 L296,185 L300,315 L304,185 L308,315 L312,185 L316,315 L320,185 L324,315 L328,185 L332,315 L336,185 L340,315 L344,185 L348,315 L352,185 L356,315 L360,185 L364,315 L368,185 L372,315 L376,185 L380,315 L384,250" fill="none" stroke="#5b8a72" stroke-width="2.5" stroke-linejoin="round"/>
-
-<line x1="60" y1="150" x2="380" y2="150" stroke="#c8553d" stroke-width="3" marker-end="url(#seta)"/>
-<text x="220" y="135" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#c8553d" text-anchor="middle">frequência sobe linearmente</text>
-
-<line x1="60" y1="345" x2="380" y2="345" stroke="#1f2a44" stroke-width="2" marker-end="url(#setaAz)"/>
-<text x="220" y="378" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">tempo</text>
-<text x="220" y="406" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">pulso longo, muita energia</text>
-
-<line x1="555" y1="320" x2="905" y2="320" stroke="#1f2a44" stroke-width="2"/>
-<path d="M555,320 L710,320 L726,225 L730,160 L734,225 L750,320 L905,320" fill="none" stroke="#c8553d" stroke-width="3.5" stroke-linejoin="round"/>
-
-<line x1="726" y1="295" x2="726" y2="345" stroke="#1f2a44" stroke-width="2"/>
-<line x1="734" y1="295" x2="734" y2="345" stroke="#1f2a44" stroke-width="2"/>
-<text x="830" y="262" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">resolução</text>
-<text x="830" y="288" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">≈ c/(2B)</text>
-<line x1="780" y1="296" x2="740" y2="330" stroke="#1f2a44" stroke-width="1.5" marker-end="url(#setaAz)"/>
-
-<text x="730" y="378" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">tempo</text>
-<text x="730" y="406" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">um pico estreito</text>
-
-<line x1="438" y1="250" x2="522" y2="250" stroke="#c8553d" stroke-width="4" marker-end="url(#seta)"/>
-<text x="480" y="196" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#c8553d" text-anchor="middle">filtro casado</text>
-<text x="480" y="222" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1f2a44" text-anchor="middle">correlação com</text>
-<text x="480" y="244" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1f2a44" text-anchor="middle">cópia do pulso</text>
-
-<text x="480" y="470" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44" text-anchor="middle">A largura do pico depende da largura de banda B,</text>
-<text x="480" y="500" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44" text-anchor="middle">não da duração do pulso.</text>
+<rect width="960" height="540" fill="#fbf9f4"/>
+<text x="480" y="44" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#1f2a44" text-anchor="middle">Efeito Doppler: frentes de onda de uma fonte em movimento</text>
+<g fill="none" stroke="#5b8a72" stroke-width="3">
+<circle cx="480" cy="270" r="40"/>
+<circle cx="440" cy="270" r="95"/>
+<circle cx="400" cy="270" r="150"/>
+<circle cx="360" cy="270" r="205"/>
+</g>
+<circle cx="480" cy="270" r="12" fill="#c8553d"/>
+<text x="480" y="305" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#c8553d" text-anchor="middle">Fonte</text>
+<line x1="498" y1="270" x2="580" y2="270" stroke="#1f2a44" stroke-width="4" marker-end="url(#aN)"/>
+<text x="540" y="256" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#1f2a44" text-anchor="middle">v</text>
+<line x1="498" y1="270" x2="580" y2="270" stroke="#c8553d" stroke-width="4" marker-end="url(#aT)" display="none"/>
+<text x="480" y="455" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">Frentes mais juntas à frente, mais espaçadas atrás</text>
+<circle cx="790" cy="270" r="14" fill="#1f2a44"/>
+<text x="790" y="312" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1f2a44" text-anchor="middle">Observador A</text>
+<text x="790" y="338" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">frequência maior</text>
+<circle cx="130" cy="270" r="14" fill="#1f2a44"/>
+<text x="130" y="312" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1f2a44" text-anchor="middle">Observador B</text>
+<text x="130" y="338" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">frequência menor</text>
+<line x1="610" y1="160" x2="610" y2="470" stroke="#e8e4da" stroke-width="2" display="none"/>
+<rect x="640" y="78" width="290" height="140" rx="10" fill="#e8e4da"/>
+<text x="655" y="108" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1f2a44">Decomposição de v</text>
+<line x1="670" y1="190" x2="770" y2="190" stroke="#c8553d" stroke-width="5" marker-end="url(#aT)"/>
+<text x="785" y="197" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#c8553d">v<tspan font-size="16" dy="5">r</tspan></text>
+<text x="655" y="150" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">radial: aponta ao observador</text>
+<line x1="840" y1="190" x2="840" y2="130" stroke="#8a7fb0" stroke-width="4" display="none"/>
+<text x="480" y="500" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">Só a componente radial vr desloca a frequência</text>
 </svg>

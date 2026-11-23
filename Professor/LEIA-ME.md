@@ -1,16 +1,18 @@
-# SAR: Synthetic Aperture Radar
+# Oceanografia por Satélites
 
 Site do curso, pronto para publicar no GitHub Pages.
 
 ## Publicar
-1. Crie um repositório no GitHub (por exemplo `curso-sar-synthetic-aperture-radar`) e envie **todos** os arquivos desta pasta para a raiz dele.
+1. Crie um repositório no GitHub (por exemplo `curso-oceanografia-por-satelites`) e envie **todos** os arquivos desta pasta para a raiz dele.
 2. Em **Settings → Pages**, escolha **Deploy from a branch**, branch `main` e pasta `/ (root)`.
 3. Em alguns minutos o site fica em `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/`.
 
 ## Links para o Moodle
 - Página do curso: `.../index.html`
-- SAR: como a abertura sintética forma imagens do oceano sob qualquer tempo: `.../aula-01.html`
-- SAR e o oceano: frequência, polarização e ângulo de incidência na escolha do modo: `.../aula-02.html`
+- Fundamentos de radar: como enxergar com micro-ondas e eco: `.../aula-01.html`
+- SAR: como a abertura sintética forma imagens do oceano sob qualquer tempo: `.../aula-02.html`
+- Por que o mar calmo é escuro para o radar? Retroespalhamento (σ⁰), Bragg e vento: `.../aula-03.html`
+- SAR e o oceano: frequência, polarização e ângulo de incidência na escolha do modo: `.../aula-04.html`
 
 No Moodle, adicione cada link como recurso **URL** (ou incorpore em uma Página/Etiqueta com iframe).
 

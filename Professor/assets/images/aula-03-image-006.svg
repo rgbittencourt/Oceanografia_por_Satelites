@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Gráfico conceitual de sigma zero em dB versus ângulo de incidência de 0 a 70 graus, com curva de mar calmo (muito alta perto de 0 grau e queda acentuada) e curva de mar agitado (menos alta e queda suave), com a região especular de 0 a cerca de 20 graus e a região de Bragg de cerca de 20 a 70 graus.">
+<defs>
+<marker id="seta" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+<path d="M0,0 L10,5 L0,10 Z" fill="#1f2a44"/>
+</marker>
+</defs>
+<rect width="960" height="540" fill="#fbf9f4"/>
+<rect x="110" y="40" width="190" height="400" fill="#8a7fb0" fill-opacity="0.22"/>
+<rect x="300" y="40" width="570" height="400" fill="#5b8a72" fill-opacity="0.18"/>
+<line x1="300" y1="40" x2="300" y2="440" stroke="#1f2a44" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="205" y="72" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1f2a44" text-anchor="middle">Região</text>
+<text x="205" y="98" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1f2a44" text-anchor="middle">especular</text>
+<text x="585" y="72" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1f2a44" text-anchor="middle">Região de Bragg</text>
+<line x1="110" y1="440" x2="110" y2="30" stroke="#1f2a44" stroke-width="3" marker-end="url(#seta)"/>
+<line x1="110" y1="440" x2="890" y2="440" stroke="#1f2a44" stroke-width="3" marker-end="url(#seta)"/>
+<path d="M110,110 C150,115 190,240 300,330 C400,385 600,410 870,420" fill="none" stroke="#c8553d" stroke-width="5"/>
+<path d="M110,215 C200,230 300,260 400,285 C560,320 720,335 870,345" fill="none" stroke="#8a7fb0" stroke-width="5"/>
+<text x="650" y="404" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#c8553d" text-anchor="middle">Mar calmo</text>
+<text x="650" y="305" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1f2a44" text-anchor="middle">Mar agitado</text>
+<line x1="110" y1="440" x2="110" y2="448" stroke="#1f2a44" stroke-width="3"/>
+<line x1="300" y1="440" x2="300" y2="450" stroke="#1f2a44" stroke-width="3"/>
+<line x1="870" y1="440" x2="870" y2="450" stroke="#1f2a44" stroke-width="3"/>
+<text x="110" y="476" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">0°</text>
+<text x="300" y="476" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">~20°</text>
+<text x="870" y="476" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44" text-anchor="middle">70°</text>
+<text x="490" y="512" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44" text-anchor="middle">Ângulo de incidência (graus)</text>
+<text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44" text-anchor="middle" transform="translate(52,240) rotate(-90)">σ⁰ (dB)</text>
+</svg>

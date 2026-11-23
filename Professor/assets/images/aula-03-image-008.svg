@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Condição de Bragg: a onda do radar incide com ângulo θ sobre cristas do mar espaçadas de λ_B; a diferença de caminho dos ecos de cristas vizinhas é um comprimento de onda do radar, e o retorno interfere construtivamente.">
+<defs>
+<marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c8553d"/></marker>
+<marker id="ab" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f2a44"/></marker>
+</defs>
+<rect x="0" y="0" width="960" height="540" fill="#fbf9f4"/>
+<text x="480" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#1f2a44">Condição de Bragg</text>
+<rect x="30" y="52" width="170" height="40" rx="6" fill="#e8e4da" stroke="#1f2a44" stroke-width="2"/>
+<text x="115" y="79" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44">antena</text>
+<line x1="115" y1="92" x2="115" y2="106" stroke="#1f2a44" stroke-width="2"/>
+<line x1="75" y1="106" x2="155" y2="106" stroke="#1f2a44" stroke-width="2"/>
+<line x1="320" y1="110" x2="420" y2="330" stroke="#1f2a44" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="420" y1="330" x2="620" y2="330" stroke="#1f2a44" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="480" y1="110" x2="580" y2="330" stroke="#c8553d" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="580" y1="330" x2="680" y2="110" stroke="#5b8a72" stroke-width="3" marker-end="url(#ab)"/>
+<line x1="420" y1="330" x2="520" y2="110" stroke="#5b8a72" stroke-width="3" marker-end="url(#ab)"/>
+<line x1="320" y1="110" x2="420" y2="330" stroke="#c8553d" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="420" y1="330" x2="420" y2="170" stroke="#1f2a44" stroke-width="2" stroke-dasharray="3 5"/>
+<path d="M 420 235 A 95 95 0 0 0 385 245" fill="none" stroke="#1f2a44" stroke-width="2"/>
+<text x="448" y="226" font-family="Arial, Helvetica, sans-serif" font-size="24" font-style="italic" fill="#1f2a44">θ</text>
+<text x="232" y="170" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#c8553d">pulso do radar</text>
+<text x="232" y="196" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#c8553d">(onda plana)</text>
+<text x="232" y="232" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">λ_radar</text>
+<text x="700" y="165" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#5b8a72">ecos</text>
+<text x="700" y="191" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#5b8a72">retroespalhados</text>
+<path d="M 30 360 Q 105 300 180 360 T 330 360 T 480 360 T 630 360 T 780 360 T 930 360 L 930 500 L 30 500 Z" fill="#8a7fb0" fill-opacity="0.35" stroke="#1f2a44" stroke-width="2"/>
+<circle cx="420" cy="330" r="6" fill="#c8553d"/>
+<circle cx="580" cy="330" r="6" fill="#c8553d"/>
+<text x="420" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">crista</text>
+<text x="580" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">crista</text>
+<line x1="420" y1="420" x2="580" y2="420" stroke="#1f2a44" stroke-width="2" marker-start="url(#ab)" marker-end="url(#ab)"/>
+<line x1="420" y1="335" x2="420" y2="430" stroke="#1f2a44" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="580" y1="335" x2="580" y2="430" stroke="#1f2a44" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="500" y="406" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44">λ_B</text>
+<text x="500" y="456" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">espaçamento das cristas do mar</text>
+<rect x="690" y="270" width="240" height="116" rx="8" fill="#e8e4da" stroke="#c8553d" stroke-width="2.5"/>
+<text x="810" y="298" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">diferença de caminho</text>
+<text x="810" y="324" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">entre ecos vizinhos</text>
+<text x="810" y="356" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#c8553d">= 1 λ_radar</text>
+<text x="810" y="378" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">(n = 1)</text>
+<text x="480" y="490" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1f2a44">interferência construtiva do retorno</text>
+<text x="480" y="522" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44">λ_B = λ_radar / (2 · sen θ)</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Dois painéis: à esquerda, superfície lisa com reflexão especular, o feixe sai numa única direção e quase nada volta à antena; à direita, superfície rugosa com espalhamento difuso, a energia sai em várias direções e uma pequena parte volta à antena.">
+  <defs>
+    <marker id="aN" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1f2a44"/></marker>
+    <marker id="aT" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#c8553d"/></marker>
+    <marker id="aV" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5b8a72"/></marker>
+    <marker id="aL" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#8a7fb0"/></marker>
+  </defs>
+  <rect width="960" height="540" fill="#fbf9f4"/>
+
+  <rect x="20" y="20" width="450" height="500" rx="12" fill="#e8e4da" opacity="0.45"/>
+  <rect x="490" y="20" width="450" height="500" rx="12" fill="#e8e4da" opacity="0.45"/>
+
+  <text x="245" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#1f2a44">Reflexão especular</text>
+  <text x="245" y="86" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44">superfície lisa</text>
+  <text x="715" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#1f2a44">Espalhamento difuso</text>
+  <text x="715" y="86" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44">superfície rugosa</text>
+
+  <!-- Painel esquerdo -->
+  <g>
+    <line x1="50" y1="420" x2="440" y2="420" stroke="#1f2a44" stroke-width="4"/>
+    <rect x="50" y="420" width="390" height="70" fill="#e8e4da"/>
+    <line x1="50" y1="420" x2="440" y2="420" stroke="#1f2a44" stroke-width="4"/>
+    <!-- antena -->
+    <line x1="75" y1="230" x2="75" y2="200" stroke="#1f2a44" stroke-width="4"/>
+    <path d="M60,200 L90,200 L75,170 Z" fill="#1f2a44"/>
+    <text x="75" y="255" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1f2a44">Antena</text>
+    <!-- incidente -->
+    <line x1="95" y1="195" x2="205" y2="410" stroke="#1f2a44" stroke-width="4" marker-end="url(#aN)"/>
+    <text x="165" y="290" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">Feixe incidente</text>
+    <!-- refletido -->
+    <line x1="215" y1="410" x2="400" y2="190" stroke="#c8553d" stroke-width="4" marker-end="url(#aT)"/>
+    <text x="400" y="162" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#c8553d">Um único feixe refletido,</text>
+    <text x="400" y="186" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#c8553d">longe da antena</text>
+    <!-- retorno quase nulo -->
+    <line x1="195" y1="410" x2="165" y2="370" stroke="#8a7fb0" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#aL)"/>
+    <text x="245" y="465" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">Quase nenhuma energia</text>
+    <text x="245" y="489" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">de retorno: aparece escura</text>
+  </g>
+
+  <!-- Painel direito -->
+  <g>
+    <rect x="520" y="420" width="390" height="70" fill="#e8e4da"/>
+    <path d="M520,420 L540,408 L560,424 L580,410 L600,426 L620,409 L640,423 L660,407 L680,425 L700,410 L720,424 L740,408 L760,426 L780,410 L800,424 L820,409 L840,425 L860,410 L880,424 L910,412" fill="none" stroke="#1f2a44" stroke-width="4"/>
+    <!-- antena -->
+    <line x1="545" y1="230" x2="545" y2="200" stroke="#1f2a44" stroke-width="4"/>
+    <path d="M530,200 L560,200 L545,170 Z" fill="#1f2a44"/>
+    <text x="545" y="255" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1f2a44">Antena</text>
+    <!-- incidente -->
+    <line x1="565" y1="195" x2="675" y2="405" stroke="#1f2a44" stroke-width="4" marker-end="url(#aN)"/>
+    <text x="635" y="290" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">Feixe incidente</text>
+    <!-- espalhados -->
+    <line x1="685" y1="405" x2="880" y2="330" stroke="#c8553d" stroke-width="3" marker-end="url(#aT)"/>
+    <line x1="685" y1="405" x2="840" y2="230" stroke="#c8553d" stroke-width="3" marker-end="url(#aT)"/>
+    <line x1="685" y1="405" x2="740" y2="190" stroke="#c8553d" stroke-width="3" marker-end="url(#aT)"/>
+    <line x1="685" y1="405" x2="660" y2="300" stroke="#c8553d" stroke-width="3" marker-end="url(#aT)" opacity="0"/>
+    <line x1="685" y1="405" x2="600" y2="330" stroke="#c8553d" stroke-width="3" marker-end="url(#aT)" opacity="0"/>
+    <text x="895" y="212" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#c8553d">Energia espalhada</text>
+    <text x="895" y="236" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#c8553d">em várias direções</text>
+    <!-- retorno -->
+    <line x1="670" y1="400" x2="590" y2="255" stroke="#5b8a72" stroke-width="5" marker-end="url(#aV)"/>
+    <text x="600" y="330" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#5b8a72">Pequena fração</text>
+    <text x="600" y="354" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#5b8a72">volta à antena</text>
+    <text x="715" y="465" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">Eco mensurável:</text>
+    <text x="715" y="489" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">aparece mais clara</text>
+  </g>
+</svg>

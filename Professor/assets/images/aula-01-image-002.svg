@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Espectro eletromagnético em escala logarítmica, com a região de micro-ondas dividida nas bandas de radar P, L, S, C, X, Ku, K e Ka, cada uma com sua frequência e comprimento de onda central aproximado; infravermelho e luz visível indicados ao lado">
+<defs>
+<marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f2a44"/></marker>
+</defs>
+<rect width="960" height="540" fill="#fbf9f4"/>
+<text x="480" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1f2a44">Bandas de radar no espectro eletromagnético</text>
+<text x="40" y="76" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">Escala logarítmica:  λ = c / f</text>
+<rect x="40" y="92" width="830" height="52" fill="#e8e4da" stroke="#1f2a44" stroke-width="2"/>
+<rect x="120" y="92" width="530" height="52" fill="#8a7fb0" fill-opacity="0.35" stroke="#1f2a44" stroke-width="2"/>
+<text x="385" y="125" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1f2a44">Micro-ondas</text>
+<text x="80" y="125" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">Rádio</text>
+<text x="760" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">Infravermelho</text>
+<text x="760" y="134" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">e visível</text>
+<text x="890" y="125" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">→</text>
+<text x="40" y="168" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">← menor frequência, λ longo</text>
+<text x="920" y="168" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">maior frequência, λ curto →</text>
+<line x1="385" y1="146" x2="85" y2="214" stroke="#1f2a44" stroke-width="1.5" stroke-dasharray="6,5"/>
+<line x1="385" y1="146" x2="875" y2="214" stroke="#1f2a44" stroke-width="1.5" stroke-dasharray="6,5"/>
+<text x="480" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">Ampliação: bandas de radar</text>
+<g stroke="#1f2a44" stroke-width="2">
+<rect x="40" y="220" width="100" height="150" fill="#8a7fb0" fill-opacity="0.6"/>
+<rect x="140" y="220" width="100" height="150" fill="#8a7fb0" fill-opacity="0.6"/>
+<rect x="240" y="220" width="100" height="150" fill="#5b8a72" fill-opacity="0.6"/>
+<rect x="340" y="220" width="100" height="150" fill="#c8553d" fill-opacity="0.75"/>
+<rect x="440" y="220" width="100" height="150" fill="#c8553d" fill-opacity="0.75"/>
+<rect x="540" y="220" width="100" height="150" fill="#5b8a72" fill-opacity="0.6"/>
+<rect x="640" y="220" width="100" height="150" fill="#5b8a72" fill-opacity="0.6"/>
+<rect x="740" y="220" width="100" height="150" fill="#5b8a72" fill-opacity="0.6"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#1f2a44" text-anchor="middle">
+<g font-size="32" font-weight="bold">
+<text x="90" y="268">P</text>
+<text x="190" y="268">L</text>
+<text x="290" y="268">S</text>
+<text x="390" y="268">C</text>
+<text x="490" y="268">X</text>
+<text x="590" y="268">Ku</text>
+<text x="690" y="268">K</text>
+<text x="790" y="268">Ka</text>
+</g>
+<g font-size="20">
+<text x="90" y="316">115 cm</text>
+<text x="190" y="316">20 cm</text>
+<text x="290" y="316">10 cm</text>
+<text x="390" y="316">5 cm</text>
+<text x="490" y="316">3 cm</text>
+<text x="590" y="316">2 cm</text>
+<text x="690" y="316">1,35 cm</text>
+<text x="790" y="316">1 cm</text>
+</g>
+<text x="90" y="350" font-size="20">λ central</text>
+<text x="790" y="350" font-size="20">λ central</text>
+</g>
+<line x1="40" y1="400" x2="840" y2="400" stroke="#1f2a44" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="40" y="432" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44">Frequência crescente</text>
+<text x="840" y="432" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2a44">Comprimento de onda decrescente</text>
+<text x="480" y="480" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#c8553d">C e X (terracota): bandas centrais da faixa de radar</text>
+<text x="480" y="516" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2a44">Valores aproximados (Maul, Tabela 1.2); conferir na obra</text>
+</svg>
